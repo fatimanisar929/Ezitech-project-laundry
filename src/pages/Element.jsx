@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import element1 from "../assets/element1.webp";
 import table from "../assets/table.png";
 import table1 from "../assets/table2.png";
-import pic1 from "../assets/pic1.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Elements = () => {
@@ -201,7 +200,7 @@ const Elements = () => {
         <hr></hr>
         <div className="table">
           <h2>Table</h2>
-          <img src={table} />
+          <img src={table} alt="table" />
         </div>
         <section className="gallery-container">
           <h2>Image Gallery</h2>
