@@ -1,0 +1,44 @@
+.hero-section {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: 124vh;
+  overflow: hidden;
+  margin-bottom: -320px;
+}
+
+.hero-bg {
+  width: 130%;
+  height: 50%;
+  object-fit: cover;
+  filter: brightness(0.9);
+  box-shadow: inset;
+}
+.hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 50%;
+  background: linear-gradient(
+    to right,
+    rgba(27, 28, 70, 0.692),
+    rgba(11, 11, 14, 0)
+  );
+}
+
+.hero-content {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 73px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-left: -50px;
+}

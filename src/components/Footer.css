@@ -1,0 +1,81 @@
+.footer {
+  background-color: #ffffff;
+  padding: 40px 80px;
+  font-family: "Poppins", sans-serif;
+  color: #3333337a;
+}
+
+.logo-text {
+  height: 35px;
+  cursor: pointer;
+  margin-left: -10px;
+  color: #6e74f5;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.iconss {
+  display: flex;
+  flex-direction: row;
+}
+.board1 {
+  border-radius: 50%;
+  background-color: rgba(36, 38, 38, 0.884);
+}
+
+.footer-columns {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.footer-columns div {
+  flex: 1;
+}
+
+.footer-columns h4 {
+  margin-bottom: 34px;
+  color: #181f55;
+  font-size: 24px;
+  margin-left: 80px;
+}
+p {
+  max-width: 340px;
+  line-height: 1.6;
+}
+.footer-columns ul {
+  line-height: 2;
+  margin-left: 70px;
+  list-style: none;
+  padding: 12px;
+}
+
+.footer-columns li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 13px;
+  color: black;
+  max-width: 2960px;
+  margin-left: -90px;
+  margin-bottom: -190px;
+}
+.footer-bottom p {
+  max-width: 630px;
+  margin-left: 370px;
+  margin-bottom: -115px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.getintouch {
+  color: #6e75f5ce;
+  font-size: 24px;
+}
+li:hover {
+  color: #6e74f5;
+}

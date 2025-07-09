@@ -1,0 +1,142 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 53px;
+}
+
+.logo {
+  height: 35px;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #6c72ea;
+}
+
+/* underline active link */
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -37px;
+  right: -20px;
+  height: 3.5px;
+  width: 200%;
+  background-color: #6e74f5;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+  pointer-events: auto;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-trigger {
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* remove margin-top */
+  left: 0;
+  background-color: rgba(91, 96, 195, 0.822);
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 1001;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #fbf9f9;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  transform: translateX(6px);
+  color: #6e74f5;
+}
+
+/* Phone and button styles */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  color: #6e74f5;
+  font-weight: 500;
+  margin-left: 200px;
+}
+
+.phone-icon {
+  height: 20px;
+}
+
+.appointment-btn {
+  padding: 37px 38px;
+  background-color: #6e74f5;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  margin-right: 44px;
+}
+
+.appointment-btn:hover {
+  background-color: #5b61dd;
+}

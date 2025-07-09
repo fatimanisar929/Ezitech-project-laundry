@@ -1,0 +1,63 @@
+.process-section {
+  text-align: center;
+  padding: 100px 20px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.process-label {
+  align-items: center;
+  text-align: center;
+  color: #6e74f5;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #d5dfea78;
+  margin-left: 45%;
+  width: 7%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.process-section h2 {
+  font-size: 40px;
+  font-weight: 600;
+
+  color: #272a6df1;
+  font-family: sole sans;
+}
+
+.process-cards {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 53px;
+}
+
+.process-card {
+  margin-top: 20px;
+  max-width: 320px;
+  text-align: center;
+}
+
+.process-icon {
+  font-size: 50px;
+  color: #6e74f5;
+  margin-bottom: 12px;
+}
+
+.process-card h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #202357;
+}
+
+.process-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555555d8;
+}
+hr {
+  width: 100%;
+  color: rgba(105, 97, 97, 0.541);
+}

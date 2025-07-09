@@ -1,0 +1,51 @@
+.about-company {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 60px 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 550px;
+  margin-left: 60px;
+  height: 100%;
+}
+
+.about-content {
+  max-width: 500px;
+  margin-left: 50px;
+  margin-top: -110px;
+}
+
+.about-content h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #33367a;
+}
+
+.about-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  color: rgba(23, 22, 22, 0.842);
+  line-height: 2;
+}
+
+.about-btn {
+  margin-top: 10px;
+  padding: 20px 50px;
+  background-color: #6e74f5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: -140px;
+}
+
+.about-btn:hover {
+  background-color: #5b61dd;
+}

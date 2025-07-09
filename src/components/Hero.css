@@ -1,0 +1,66 @@
+.hero-section {
+  position: relative;
+  margin-top: 110px;
+  overflow: hidden;
+  margin-top: 1120px;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  filter: brightness(0.9);
+  box-shadow: inset;
+}
+.hero-gradient {
+  position: absolute;
+
+  left: 0;
+  width: 40%;
+  height: 180%;
+  background: linear-gradient(
+    to right,
+    rgba(57, 61, 131, 0.6),
+    rgba(25, 25, 30, 0)
+  );
+}
+
+.hero-content {
+  position: absolute;
+  top: 45%;
+  left: 12%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 73px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-left: -50px;
+}
+
+.hero-content p {
+  font-size: 30px;
+  color: #eaeaea;
+  margin-left: -50px;
+}
+
+.hero-btn {
+  margin-top: 1px;
+  margin-left: -50px;
+  padding: 20px 35px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #6e74f5;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #5b61dd;
+}

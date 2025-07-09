@@ -1,0 +1,271 @@
+.blog-details-page .container {
+  padding: 40px 20px;
+}
+
+.blog-details-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.blog-details-left {
+  flex: 2;
+  gap: 40px;
+  margin-left: 90px;
+}
+
+.blog-sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+/* Detail content styling */
+.blog-detail-img {
+  width: 95%;
+
+  margin-bottom: 20px;
+}
+
+.blog-detail-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: -10px;
+  color: #1a1a1a;
+}
+
+.blog-detail-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+.blog-detail-meta:hover {
+  color: #6e74f5;
+  cursor: pointer;
+}
+
+.blog-detail-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 16px;
+  max-width: 790px;
+}
+.section {
+  background-color: #d0c6c654;
+
+  padding: 10px 40px;
+}
+.blog-quote {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border-left: 2px solid #6a6a72;
+  line-height: 2;
+  margin: 30px 0;
+  font-style: italic;
+  color: #756d6d;
+}
+
+.author-box {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  background-color: #a5a5b40f;
+}
+.author-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.author-details h4 {
+  margin: 0 0 8px;
+}
+.author-details h4:hover {
+  cursor: pointer;
+  color: #4c52d6;
+}
+.author-details p {
+  font-size: 15px;
+  color: #555;
+  max-width: 600px;
+}
+.post-nav-row-strict {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 70px 10px;
+  width: 100%;
+}
+
+.post-nav-single {
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+}
+
+.left-align {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.right-align {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.post-img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.post-img {
+  width: 90%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.post-img-wrap:hover .post-img {
+  transform: scale(1.05);
+}
+
+.nav-arrow {
+  width: 270%;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(29, 29, 30, 0.308);
+  color: #fff;
+  padding: 10px;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-arrow.left {
+  top: 50px;
+  bottom: 10px;
+  left: 20px;
+}
+
+.nav-arrow.right {
+  right: 10px;
+}
+
+.post-img-wrap:hover .nav-arrow:hover {
+  background-color: #2222225a;
+
+  opacity: 1;
+}
+
+.post-info {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.post-info span {
+  font-size: 13px;
+  color: #090909;
+}
+
+.post-info h5 {
+  font-size: 16px;
+  color: #080808;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  max-width: 730px;
+}
+
+.post-info h5:hover {
+  color: #4c52d6;
+}
+
+/* Optional spacer to push posts apart */
+.post-nav-space {
+  flex: 1;
+}
+
+.comments-section {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+.comment {
+  display: flex;
+  margin-top: 20px;
+}
+.comment-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.comment-content h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #14173d;
+}
+.comment-content h5:hover {
+  color: #4c52d6;
+}
+.reply p:hover {
+  color: #4c52d6;
+}
+.comment-content p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+  max-width: 700px;
+}
+
+.reply-form {
+  margin-top: 40px;
+}
+.reply-form textarea {
+  width: 87%;
+  height: 120px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.reply-inputs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.website {
+  width: 86%;
+}
+.reply-inputs input {
+  width: 101%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+.reply-form button {
+  background: #ffffff;
+  color: #4c52d6;
+  padding: 18px 30px;
+  border: 1px solid #4c52d6;
+  cursor: pointer;
+  font-size: 16px;
+
+  font-weight: 100;
+}
+.reply-form button:hover {
+  background: #5058d4;
+}
+.form-error {
+  color: crimson;
+  margin-bottom: 12px;
+}
